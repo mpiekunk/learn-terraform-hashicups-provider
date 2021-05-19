@@ -17,13 +17,13 @@ resource "hashicups_order" "edu" {
     coffee {
       id = 3
     }
-    quantity = 2
+    quantity = 3
   }
   items {
     coffee {
       id = 2
     }
-    quantity = 2
+    quantity = 1
   }
 }
 
